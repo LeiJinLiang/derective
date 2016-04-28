@@ -1,0 +1,60 @@
+* { margin: 0; padding: 0; }
+body { font-family: 'Open Sans', sans-serif; color: #1f2636; font-size: 14px; padding-bottom: 40px; }
+article { margin-bottom: 10px; }
+.base_line{
+  width: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.rz-pointer{
+  /*background-color: transparent !important;*/
+  background: url('yuan.png') no-repeat center center;
+  background-size: cover;
+  background-color: #ccc !important;
+  /*border: none !important;*/
+}
+.rz-bar{
+  background: #aaa !important;
+}
+.rz-selection{
+  background:#d30775 !important;
+}
+.rz-active{
+  /*z-index: -10 !important;*/
+}
+.rz-ticks .rz-tick {
+  height: 0 !important;
+}
+.bl_title{
+  margin-top: 20px;
+}
+.bl_title>p:first-child{
+    float: left;
+     color: #d52b80;
+}
+.bl_title>p:last-child{
+  float: right;
+  color: #d52b80;
+}
+rzslider .rz-ticks.rz-ticks-values-under .rz-tick-value{
+  color: #d52b80;
+}
+rzslider .rz-pointer:after {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 8px;
+  height: 8px;
+  /*background: #ffffff;*/
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  content: '';
+  display: none;
+}
+rzslider .rz-bubble {
+  color: #d52b80;
+}
+rzslider .rz-bar{
+  height: 6px;
+}
